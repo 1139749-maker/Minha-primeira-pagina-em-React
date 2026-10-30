@@ -1,0 +1,11 @@
+.lista-numerada {
+  padding-left: 22px;
+}
+
+.lista-numerada li {
+  margin-bottom: 8px;
+}
+
+.lista-numerada li:last-child {
+  margin-bottom: 0;
+}

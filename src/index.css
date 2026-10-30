@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --cor-fundo: #f4f6f7;
+  --cor-texto: #a41d83;
+  --cor-destaque: #a41d83;
+  --cor-destaque-clara: #cdf1f3;
+  --cor-cartao: #ffffff;
+  --cor-borda: #cca9ce;
+  --espaco: 24px;
+  --largura-maxima: 720px;
+}
+
+body {
+  background-color: var(--cor-fundo);
+  color: var(--cor-texto);
+  font-family: 'Segoe UI', system-ui, sans-serif;
+  line-height: 1.65;
+}
